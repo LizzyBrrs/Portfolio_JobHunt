@@ -10,13 +10,13 @@ p{
     font-weight: normal;
 }
 
-h1{
+.Maintitle{
     font-size: 3rem;
     font-weight: bold;
     padding-top: 0.94rem;
 }
 
-h2{
+.SubTitle{
     font-weight: bold;
     font-size: 2rem;
 }
@@ -27,13 +27,10 @@ h3{
     font-weight: normal;
     padding-top: 0.5rem;
 }
+:root{
+    --coffee: #93734d;
 
-h4{
-    font-size: 1rem;
-    font-weight: normal;
 }
-
-
 .header{
     /*background-image: url("Assets/design-space-stained-paper-textured-background.jpg");*/
     background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
@@ -44,8 +41,6 @@ h4{
     padding: 3.12rem 6.25rem 1rem 6.25rem;
 
 }
-
-
 
 .header-tekst h1{
     padding-top: 0.94rem;
@@ -79,8 +74,38 @@ h4{
     justify-content: space-between;
 }
 .devider{
-    height: 2px;
-    background-color: #000000;
+    height: 1.5px;
+    background-color: var(--coffee);
     width: 95%;
     margin: auto;
 }
+.Contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Mail img, .GSM img{
+    width: 2rem;
+    margin: 1rem;
+}
+.Mail, .GSM{
+    display: flex;
+    align-items: center;
+}
+.Projects_container1{
+    padding: 0.25rem 6.25rem 1rem 6.25rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    width: 100%;
+}
+.FoldersBlock img{
+    width: 30rem;
+}
+/*.Folders h2{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
