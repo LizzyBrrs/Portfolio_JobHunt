@@ -20,7 +20,11 @@ p{
     font-weight: bold;
     font-size: 2rem;
 }
-
+.SubTitle_2{
+    padding: 0.25rem 6.25rem 1.5rem 6.25rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
 
 h3{
     font-size: 1.5rem;
@@ -38,7 +42,7 @@ h3{
     background-repeat: no-repeat;
     background-position: center center;
     color: #000000;
-    padding: 3.12rem 6.25rem 1rem 6.25rem;
+    padding: 3.12rem 6.25rem 1rem 6rem;
 
 }
 
@@ -74,9 +78,9 @@ h3{
     justify-content: space-between;
 }
 .devider{
-    height: 1.5px;
+    height: 0.1rem;
     background-color: var(--coffee);
-    width: 95%;
+    width: 98%;
     margin: auto;
 }
 .Contact{
@@ -92,20 +96,50 @@ h3{
     display: flex;
     align-items: center;
 }
-.Projects_container1{
-    padding: 0.25rem 6.25rem 1rem 6.25rem;
-}
-.container {
+
+.Projects_container{
     display: flex;
     flex-direction: row;
+    padding: 0.25rem 6.25rem 1rem 6.25rem;
 }
 .column {
     width: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
 }
-.FoldersBlock img{
+.columnLeft{
+    border-right: 2px solid var(--coffee);
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Project img{
     width: 30rem;
+    border-radius: 10px;
 }
-/*.Folders h2{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
+.Project h2{
+    padding-bottom: 0.5rem;
+}
+.devider_projects{
+    height: 0.05rem;
+    background-color: var(--coffee);
+    width: 86%;
+    margin: auto;
+}
+
+
+
+.Footer{
+    /*background-image: url("Assets/design-space-stained-paper-textured-background.jpg");*/
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    padding: 1rem 6.25rem 1rem 6rem;
+
+}
