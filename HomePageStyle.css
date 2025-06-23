@@ -6,7 +6,6 @@
 
 p{
     font-size: 1.25rem;
-    /*https://nekocalc.com/px-to-rem-converter  Uitellen pixel in rem*/
     font-weight: normal;
 }
 
@@ -119,7 +118,7 @@ h3{
 }
 .Project img{
     width: 30rem;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 .Project h2{
     padding-bottom: 0.5rem;
