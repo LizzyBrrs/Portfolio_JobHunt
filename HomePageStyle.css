@@ -21,7 +21,7 @@ p{
     font-size: 2rem;
 }
 .SubTitle_2{
-    padding: 0.25rem 6.25rem 1.5rem 6.25rem;
+    padding: 0.5rem 6.25rem 0.2rem 6.25rem;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -100,7 +100,7 @@ h3{
 .Projects_container{
     display: flex;
     flex-direction: row;
-    padding: 0.25rem 6.25rem 1rem 6.25rem;
+    padding: 0.5rem 6.25rem 1rem 6.25rem;
 }
 .column {
     width: 100%;
@@ -130,8 +130,6 @@ h3{
     width: 86%;
     margin: auto;
 }
-
-
 
 .Footer{
     /*background-image: url("Assets/design-space-stained-paper-textured-background.jpg");*/
