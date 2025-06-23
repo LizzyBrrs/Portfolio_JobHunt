@@ -4,46 +4,49 @@
     box-sizing: border-box;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
 
-p{
+p {
     font-size: 1.25rem;
     font-weight: normal;
     padding: 0.5rem 6.25rem 2rem 6.25rem;
 
 }
 
-.Maintitle{
+.Maintitle {
     font-size: 2.5rem;
     font-weight: bold;
     padding-top: 0.94rem;
 }
 
-.SubTitle{
+.SubTitle {
     font-weight: bold;
     font-size: 2rem;
 }
-.SubTitle_2{
+
+.SubTitle_2 {
     padding: 0.5rem 6.25rem 0.2rem 6.25rem;
     font-weight: bold;
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
     font-weight: normal;
     padding-top: 0.5rem;
 }
-:root{
+
+:root {
     --coffee: #93734d;
 
 }
 
-.navigate-back img{
+.navigate-back img {
     height: 5rem;
     width: 5rem;
     position: absolute;
@@ -51,8 +54,8 @@ h3{
     padding-top: 0.25rem;
 }
 
-nav{
-    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+nav {
+    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("Assets/design-space-stained-paper-textured-background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -61,27 +64,35 @@ nav{
     display: flex;
     justify-content: center;
 }
-.Catalogus_Iframe{
+
+.main {
+    margin-bottom: 4rem;
+}
+
+.Catalogus_Iframe {
+    margin-top: 4rem;
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.Research{
-    all: unset;
-    padding:1rem 1.5rem 1rem 1.5rem;
+.Research {
+    padding: 1rem 1.5rem 1rem 1.5rem;
     margin-left: 6.25rem;
     border: 0.1rem solid saddlebrown;
     border-radius: 0.6rem;
     background-color: #C5aa86;
     color: white;
     margin-bottom: 1.5rem;
+    text-decoration: none;
 }
-.Research:hover{
-        background-color: saddlebrown;
-        border: 0.1rem var(--coffee);
+
+.Research:hover {
+    background-color: saddlebrown;
+    border: 0.1rem var(--coffee);
 }
-.Button_PDF{
+
+.Button_PDF {
     padding: 0.5rem 6.25rem 2rem 6.25rem;
     background-color: #C5aa86;
     color: white;
