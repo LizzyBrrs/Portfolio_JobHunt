@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 0.5rem 6.25rem 2rem 6.25rem;
+
+}
+
+.Maintitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 0.94rem;
+}
+
+.SubTitle {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.SubTitle_2 {
+    padding: 0.5rem 6.25rem 0.2rem 6.25rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+}
+:root {
+    --coffee: #93734d;
+
+}
+.navigate-back img {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    left: 3rem;
+    padding-top: 0.25rem;
+}
+
+nav {
+    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    height: 5.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-bottom: 4rem;
+}
+.devider{
+    height: 0.2rem;
+    background-color: var(--coffee);
+    margin: auto;
+    width: 90%;
+
+}
+body{
+    padding-bottom: 4rem;
+}
+
+
+.Frituur_Iframe {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Frituur_Iframe iframe{
+    height: 55rem;
+    margin-bottom: 2.5rem;
+}
+
+.Next a {
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.Next{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

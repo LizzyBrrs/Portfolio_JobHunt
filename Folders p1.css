@@ -80,3 +80,14 @@ body{
     height: 55rem;
 }
 
+.Next a {
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.Next{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
