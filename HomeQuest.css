@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 0.2rem 6.25rem 2rem 6.25rem;
+
+}
+
+.Maintitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 0.94rem;
+}
+
+.SubTitle {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.SubTitle_2 {
+    padding: 0.5rem 6.25rem 0.2rem 6.25rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 0.3rem 6.25rem 0.2rem 6.25rem;
+}
+:root {
+    --coffee: #93734d;
+
+}
+.navigate-back img {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    left: 3rem;
+    padding-top: 0.25rem;
+}
+
+nav {
+    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    height: 5.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-bottom: 4rem;
+}
+.devider{
+    height: 0.2rem;
+    background-color: var(--coffee);
+    margin: auto;
+    width: 90%;
+
+}
+body{
+    padding-bottom: 4rem;
+}
+
+.Research {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-left: 6.25rem;
+    border: 0.1rem solid saddlebrown;
+    border-radius: 0.6rem;
+    background-color: #C5aa86;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.Research:hover {
+    background-color: saddlebrown;
+    border: 0.1rem var(--coffee);
+}
+
+.Branding_Iframe {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.Branding_Iframe iframe{
+    height: 45rem;
+}
+.app{
+    padding-top: 4rem;
+}
+.App_Iframe{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.App_Iframe iframe{
+    height: 35rem;
+}
