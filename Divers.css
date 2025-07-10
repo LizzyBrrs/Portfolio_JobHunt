@@ -116,3 +116,7 @@ body{
 .container{
     padding-bottom: 1.5rem;
 }
+
+.digital-art img{
+    aspect-ratio: 16/9;
+}
