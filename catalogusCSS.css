@@ -97,3 +97,44 @@ nav {
 body{
     padding-bottom: 4rem;
 }
+
+@media screen and (max-width: 1030px){
+    p{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .Maintitle{
+        font-size: 2.50rem;
+        font-weight: bold;
+        padding-top: 0.94rem;
+    }
+
+    .SubTitle{
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+    .SubTitle_2{
+        padding: 0.5rem 6.25rem 0.2rem 6.25rem;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.25rem;
+        font-weight: normal;
+        padding-top: 0.5rem;
+    }
+    .Projects_container{
+        display: flex;
+        flex-direction: row;
+    }
+    .columnLeft{
+        border-right: 0;
+    }
+    .Catalogus_Iframe {
+        aspect-ratio: 16/9;
+    }
+
+
+}

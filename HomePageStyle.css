@@ -37,7 +37,7 @@ h3{
 .header{
     /*background-image: url("Assets/design-space-stained-paper-textured-background.jpg");*/
     background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     color: #000000;
@@ -140,7 +140,7 @@ h3{
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1030px){
     p{
         font-size: 1rem;
         font-weight: normal;
@@ -227,7 +227,10 @@ h3{
         padding-top: 0.5rem;
     }
 
+    .header{
+        padding: 1rem 3rem 1rem 3rem;
 
+    }
     .header-tekst img{
         height: 10rem;
         padding-top: 1rem;
