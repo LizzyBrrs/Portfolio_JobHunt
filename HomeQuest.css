@@ -106,7 +106,8 @@ body{
 }
 
 .App_Iframe iframe{
-    height: 35rem;
+    height: 100%;
+    width: 70%;
     aspect-ratio: 16/9;
 }
 
@@ -164,7 +165,7 @@ body{
     }
     .App_Iframe iframe{
         height: 100%;
-
+        width: 75%;
         aspect-ratio: 16/9;
     }
 
@@ -201,5 +202,10 @@ body{
         font-size: 1.25rem;
         font-weight: normal;
         padding-top: 0.5rem;
+    }
+    .App_Iframe iframe{
+        height: 100%;
+        width: 80%;
+        aspect-ratio: 16/9;
     }
 }
