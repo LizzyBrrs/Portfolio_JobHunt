@@ -94,3 +94,85 @@ body{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 1030px){
+    .navigate-back img {
+        height: 3.5rem;
+        width: 3.5rem;
+        position: absolute;
+        left: 3rem;
+        padding-top: 0.25rem;
+    }
+    nav {
+        height: 3.5rem;
+
+    }
+    p{
+        font-size: 0.9rem;
+        padding: 0.5rem 5rem 2rem 5rem;
+    }
+    .Next p{
+        padding: 0.5rem 4rem 2rem 4rem;
+    }
+
+    .Maintitle{
+        font-size: 2rem;
+        padding-top: 0.94rem;
+    }
+
+    .SubTitle{
+        font-weight: bold;
+        font-size: 1.15rem;
+    }
+    .SubTitle_2{
+        padding: 0.5rem 3rem 0.2rem 3rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1.25rem;
+        font-weight: normal;
+        padding-top: 0.5rem;
+    }
+    .Projects_container{
+        display: flex;
+        flex-direction: row;
+    }
+    .columnLeft{
+        border-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 0.9rem;
+        padding: 0.5rem 3rem 1.5rem 3rem;
+    }
+
+    .Maintitle {
+        font-size: 1.5rem;
+    }
+
+    .SubTitle {
+        font-weight: bold;
+        font-size: 1.15rem;
+    }
+
+    .SubTitle_2 {
+        padding: 0.5rem 3rem 0.2rem 3rem;
+        font-size: 1.15rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        padding-top: 0.5rem;
+    }
+}

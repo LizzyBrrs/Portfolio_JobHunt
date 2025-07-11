@@ -99,27 +99,39 @@ body{
 }
 
 @media screen and (max-width: 1030px){
+    .navigate-back img {
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        left: 3rem;
+        padding-top: 0.25rem;
+    }
+    nav {
+        height: 4.2rem;
+
+    }
     p{
-        font-size: 1rem;
-        font-weight: normal;
+        font-size: 0.9rem;
+        padding: 0.5rem 5rem 2rem 5rem;
     }
 
     .Maintitle{
-        font-size: 2.50rem;
-        font-weight: bold;
+        font-size: 2rem;
         padding-top: 0.94rem;
     }
 
     .SubTitle{
         font-weight: bold;
-        font-size: 1.75rem;
+        font-size: 1.15rem;
     }
     .SubTitle_2{
-        padding: 0.5rem 6.25rem 0.2rem 6.25rem;
+        padding: 0.5rem 3rem 0.2rem 3rem;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
+    h2{
+        font-size: 1.2rem;
+    }
     h3{
         font-size: 1.25rem;
         font-weight: normal;
@@ -132,9 +144,49 @@ body{
     .columnLeft{
         border-right: 0;
     }
-    .Catalogus_Iframe {
-        aspect-ratio: 16/9;
+
+    .Research {
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        margin-left: 5rem;
+        border: 0.1rem solid saddlebrown;
+        border-radius: 0.6rem;
+        background-color: #C5aa86;
+        color: white;
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        font-size: 0.9rem ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    p {
+        font-size: 0.9rem;
+        padding: 0.5rem 3rem 1.5rem 3rem;
     }
 
+    .Maintitle {
+        font-size: 1.75rem;
+    }
 
+    .SubTitle {
+        font-weight: bold;
+        font-size: 1.15rem;
+    }
+
+    .SubTitle_2 {
+        padding: 0.5rem 3rem 0.2rem 3rem;
+        font-weight: bold;
+        font-size: 1.15rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: normal;
+        padding-top: 0.5rem;
+    }
 }
