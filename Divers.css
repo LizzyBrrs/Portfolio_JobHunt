@@ -116,6 +116,35 @@ body{
 .Project iframe{
     height: 25rem;
 }
+
+.Projects_container{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 6.25rem 1rem 6.25rem;
+}
+.column {
+    width: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.columnLeft{
+    border-right: 2px solid var(--coffee);
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Project img{
+    width: 22.5rem;
+    border-radius: 0.6rem;
+}
+.Project h2{
+    padding-bottom: 0.5rem;
+}
+
 @media screen and (max-width: 1030px){
     .navigate-back img {
         height: 3.2rem;
@@ -167,8 +196,14 @@ body{
     .columnLeft{
         border-right: 0;
     }
-
-
+    .Projects_container{
+        display: flex;
+        flex-direction: row;
+    }
+    .Project img{
+        width: 18rem;
+        border-radius: 0.6rem;
+    }
 
 }
 
@@ -200,5 +235,9 @@ body{
 
     h2 {
         font-size: 1.15rem;
+    }
+    .Project img{
+        width: 18rem;
+        border-radius: 0.6rem;
     }
 }
