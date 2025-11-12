@@ -68,6 +68,22 @@ nav {
 Main{
     padding: 1rem 6rem 1rem 6.25rem;
 }
+
+.Research {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-left: 6.25rem;
+    border: 0.1rem solid saddlebrown;
+    border-radius: 0.6rem;
+    background-color: #C5aa86;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.Research:hover {
+    background-color: saddlebrown;
+    border: 0.1rem var(--coffee);
+}
 @media screen and (max-width: 1030px){
     .navigate-back img {
         height: 3.2rem;
@@ -117,6 +133,16 @@ Main{
         font-size: 1.75rem;
         padding-top: 0.94rem;
     }
+    .Research {
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        border: 0.1rem solid #C5aa86;
+        border-radius: 0.6rem;
+        background-color: saddlebrown;
+        color: white;
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        font-size: 0.9rem ;
+    }
     }
 
 
@@ -131,6 +157,7 @@ Main{
     p{
         font-size: 0.9rem;
         font-weight: normal;
+        padding-top: 0;
     }
 
     .Maintitle{
