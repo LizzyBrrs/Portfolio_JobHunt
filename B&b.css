@@ -122,7 +122,9 @@ Main{
 
 
 @media screen and (max-width: 600px){
-
+    .navigate-back img {
+        left: 2rem;
+    }
     .header{
         padding: 2rem 0 1rem 0;
     }
@@ -163,14 +165,17 @@ Main{
         padding-top: 1rem;
     }
     .Photo{
-        width: 20rem;
+        width: 22rem;
 
     }
     .Picture{
-        width: 20rem;
+        width: 22rem;
     }
     Main{
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 0.25rem 1.5rem 1rem 1.5rem;
+    }
+    .Toelichting{
+        padding: 0;
     }
 
 }
