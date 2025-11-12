@@ -85,15 +85,6 @@ Main{
         font-size: 0.9rem;
         padding: 0.5rem 0 0.25rem 0;
     }
-    }
-    Main{
-        padding: 1rem 4rem 1rem 4rem;
-    }
-
-    .Maintitle{
-        font-size: 1.75rem;
-        padding-top: 0.94rem;
-    }
 
     .SubTitle{
         font-weight: bold;
@@ -114,13 +105,22 @@ Main{
     }
 
     .Picture{
-        width: 50rem;
+        width: 45rem;
     }
     .Photo{
-        width: 30rem;
+        width: 35rem;
+    }
+    Main{
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .Maintitle{
+        font-size: 1.75rem;
+        padding-top: 0.94rem;
+    }
     }
 
-}
+
+
 @media screen and (max-width: 600px){
 
     .header{
@@ -163,7 +163,11 @@ Main{
         padding-top: 1rem;
     }
     .Photo{
-        width: 30rem;
+        width: 20rem;
+
+    }
+    .Picture{
+        width: 20rem;
     }
     Main{
         padding: 1rem 2rem 1rem 2rem;
