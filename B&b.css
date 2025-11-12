@@ -54,7 +54,11 @@ nav {
     margin-bottom: 4rem;
 }
 .Picture{
-    width: 70rem;
+    width: 65rem;
+}
+
+.Photo{
+    width: 30rem;
 }
 
 .Toelichting{
@@ -109,8 +113,12 @@ Main{
     }
 
     .Picture{
-        width: 55rem;
+        width: 50rem;
     }
+    .Photo{
+        width: 30rem;
+    }
+
 }
 @media screen and (max-width: 600px){
 
@@ -152,6 +160,9 @@ Main{
     .header-tekst img{
         height: 10rem;
         padding-top: 1rem;
+    }
+    .Photo{
+        width: 30rem;
     }
 
 }
