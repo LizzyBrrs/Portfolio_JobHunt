@@ -1,208 +1,206 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
 
 p {
-    font-size: 1.25rem;
-    font-weight: normal;
-    padding: 0.1rem 0 0.2rem 0;
-
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding: 0.1rem 0 0.2rem 0;
 }
 
 .Maintitle {
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding-top: 0.94rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 0.94rem;
 }
 
-
 .SubTitle {
-    padding: 0.5rem 0 0.2rem 0;
-    font-weight: bold;
-    font-size: 2rem;
+  padding: 0.5rem 0 0.2rem 0;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    padding: 1rem 0 0.2rem 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 1rem 0 0.2rem 0;
 }
 
 .navigate-back img {
-    height: 5rem;
-    width: 5rem;
-    position: absolute;
-    left: 3rem;
-    padding-top: 0.25rem;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  left: 3rem;
+  padding-top: 0.25rem;
 }
 
 nav {
-    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("Assets/design-space-stained-paper-textured-background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #000000;
-    height: 5.2rem;
-    display: flex;
-    justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('Assets/design-space-stained-paper-textured-background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #000000;
+  height: 5.2rem;
+  display: flex;
+  justify-content: center;
 }
 
-.main {
-    margin-bottom: 4rem;
-}
-.Picture{
-    width: 65rem;
+.Picture {
+  width: 65rem;
 }
 
-.Photo{
-    width: 30rem;
+.Photo {
+  width: 30rem;
 }
 
-.Toelichting{
-    padding: 0.2rem 0 1rem 0;
+.Toelichting {
+  padding: 0.2rem 0 1rem 0;
 }
 
-Main{
-    padding: 1rem 6rem 1rem 6.25rem;
+Main {
+  padding: 1rem 6rem 1rem 6.25rem;
+  margin-bottom: 4rem;
 }
 
 .Research {
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    margin-left: 6.25rem;
-    border: 0.1rem solid saddlebrown;
-    border-radius: 0.6rem;
-    background-color: #C5aa86;
-    color: white;
-    margin-bottom: 1.5rem;
-    text-decoration: none;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border: 0.1rem solid saddlebrown;
+  border-radius: 0.6rem;
+  background-color: #c5aa86;
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+.tempfix{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .Research:hover {
-    background-color: saddlebrown;
-    border: 0.1rem var(--coffee);
+  background-color: saddlebrown;
+  border: 0.1rem var(--coffee);
 }
-@media screen and (max-width: 1030px){
-    .navigate-back img {
-        height: 3.2rem;
-        width: 3.2rem;
-        position: absolute;
-        left: 3rem;
-        padding-top: 0.25rem;
-        padding-right: 0.25rem;
-    }
-    nav {
-        height: 3.5rem;
+@media screen and (max-width: 1030px) {
+  .navigate-back img {
+    height: 3.2rem;
+    width: 3.2rem;
+    position: absolute;
+    left: 3rem;
+    padding-top: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  nav {
+    height: 3.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0.25rem 0;
+  }
 
-    }
-    p{
-        font-size: 0.9rem;
-        padding: 0.5rem 0 0.25rem 0;
-    }
+  .SubTitle {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .SubTitle_2 {
+    padding: 0.5rem 0 0.2rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+  }
 
-    .SubTitle{
-        font-weight: bold;
-        font-size: 1.15rem;
-    }
-    .SubTitle_2{
-        padding: 0.5rem 0 0.2rem 0;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    h3{
-        font-size: 1.25rem;
-        font-weight: normal;
-        padding-top: 0.5rem;
-    }
+  .Picture {
+    width: 45rem;
+  }
+  .Photo {
+    width: 35rem;
+  }
+  Main {
+    padding: 1rem 4rem 1rem 4rem;
+  }
+  .Maintitle {
+    font-size: 1.75rem;
+    padding-top: 0.94rem;
+  }
+  .Research {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    border: 0.1rem solid #c5aa86;
+    border-radius: 0.6rem;
+    background-color: saddlebrown;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+}
 
-    .Picture{
-        width: 45rem;
-    }
-    .Photo{
-        width: 35rem;
-    }
-    Main{
-        padding: 1rem 4rem 1rem 4rem;
-    }
-    .Maintitle{
-        font-size: 1.75rem;
-        padding-top: 0.94rem;
-    }
-    .Research {
-        padding: 0.75rem 1rem 0.75rem 1rem;
-        border: 0.1rem solid #C5aa86;
-        border-radius: 0.6rem;
-        background-color: saddlebrown;
-        color: white;
-        margin-bottom: 1.5rem;
-        text-decoration: none;
-        font-size: 0.9rem ;
-    }
-    }
+@media screen and (max-width: 600px) {
+  .navigate-back img {
+    left: 2rem;
+  }
+  .header {
+    padding: 2rem 0 1rem 0;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: normal;
+    padding-top: 0;
+  }
 
+  .Maintitle {
+    font-size: 1.75rem;
+    padding-top: 0.94rem;
+  }
 
+  .SubTitle {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .SubTitle_2 {
+    padding: 0.5rem 0 0.2rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+  }
 
-@media screen and (max-width: 600px){
-    .navigate-back img {
-        left: 2rem;
-    }
-    .header{
-        padding: 2rem 0 1rem 0;
-    }
-    p{
-        font-size: 0.9rem;
-        font-weight: normal;
-        padding-top: 0;
-    }
-
-    .Maintitle{
-        font-size: 1.75rem;
-        padding-top: 0.94rem;
-    }
-
-    .SubTitle{
-        font-weight: bold;
-        font-size: 1.15rem;
-    }
-    .SubTitle_2{
-        padding: 0.5rem 0 0.2rem 0;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    h3{
-        font-size: 1.25rem;
-        font-weight: normal;
-        padding-top: 0.5rem;
-    }
-
-    .header{
-        padding: 1rem 3rem 1rem 3rem;
-
-    }
-    .header-tekst img{
-        height: 10rem;
-        padding-top: 1rem;
-    }
-    .Photo{
-        width: 22rem;
-
-    }
-    .Picture{
-        width: 22rem;
-    }
-    Main{
-        padding: 0.25rem 1.5rem 1rem 1.5rem;
-    }
-    .Toelichting{
-        padding: 0;
-    }
-
+  .header {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .header-tekst img {
+    height: 10rem;
+    padding-top: 1rem;
+  }
+  .Photo {
+    width: 22rem;
+  }
+  .Picture {
+    width: 22rem;
+  }
+  Main {
+    padding: 0.25rem 1.5rem 1rem 1.5rem;
+  }
+  .Toelichting {
+    padding: 0;
+  }
 }
