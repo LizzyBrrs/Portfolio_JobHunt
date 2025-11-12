@@ -83,7 +83,8 @@ Main{
     }
     p{
         font-size: 0.9rem;
-
+        padding: 0.5rem 0 0.25rem 0;
+    }
     }
     Main{
         padding: 1rem 4rem 1rem 4rem;
@@ -163,6 +164,9 @@ Main{
     }
     .Photo{
         width: 30rem;
+    }
+    Main{
+        padding: 1rem 2rem 1rem 2rem;
     }
 
 }
