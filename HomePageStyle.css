@@ -65,10 +65,11 @@ h3{
     justify-items: flex-start;
 }
 .socials img{
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    padding-left: 0.5rem;
 }
 
 .socials{
