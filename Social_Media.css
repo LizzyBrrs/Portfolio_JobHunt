@@ -104,10 +104,12 @@ body {
 }
 
 .carousel {
-  width: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* verander dit naar hoe veel space ge wilt */
 }
 .carouselItem {
-  /* Hier de padding / margin toevoegen.*/
+  /* styling van de images zelf */
 }
 .Project h2 {
   padding-bottom: 0.5rem;
