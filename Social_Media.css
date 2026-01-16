@@ -237,6 +237,14 @@ nav {
     }
 }
 @media screen and (max-width: 600px) {
+   nav {
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+.navigate-back img{
+    left: 1.5rem;
+}
   .Projects_container {
     display: flex;
     flex-direction: column;
@@ -252,7 +260,7 @@ nav {
   }
 
   .Maintitle {
-    font-size: 1.75rem;
+    font-size: 1.70rem;
     padding-top: 0.94rem;
   }
 
