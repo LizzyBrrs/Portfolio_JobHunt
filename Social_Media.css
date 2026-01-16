@@ -1,271 +1,266 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 p {
-    font-size: 1.25rem;
-    font-weight: normal;
-    padding-bottom: 2rem;
-
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding-bottom: 2rem;
 }
 
 .Maintitle {
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding-top: 0.94rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 0.94rem;
 }
 
 .SubTitle {
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .SubTitle_2 {
-    padding: 0.60rem 6.25rem 0 6.25rem;
-    font-weight: bold;
-    font-size: 2rem;
+  padding: 0.6rem 6.25rem 0 6.25rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    padding: 0.3rem 6.25rem 0.2rem 6.25rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 0.3rem 6.25rem 0.2rem 6.25rem;
 }
 :root {
-    --coffee: #93734d;
-
+  --coffee: #93734d;
 }
 .navigate-back img {
-    height: 5rem;
-    width: 5rem;
-    position: absolute;
-    left: 3rem;
-    padding-top: 0.25rem;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  left: 3rem;
+  padding-top: 0.25rem;
 }
 
 nav {
-    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url("Assets/design-space-stained-paper-textured-background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #000000;
-    height: 5.2rem;
-    display: flex;
-    justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("Assets/design-space-stained-paper-textured-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #000000;
+  height: 5.2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
-.devider{
-    height: 0.2rem;
-    background-color: var(--coffee);
-    margin: auto;
-    width: 90%;
-
+.devider {
+  height: 0.2rem;
+  background-color: var(--coffee);
+  margin: auto;
+  width: 90%;
 }
-body{
-    padding-bottom: 4rem;
-}
-
-.digital-art{
-    height: 30rem;
-    object-fit: contain;
+body {
+  padding-bottom: 4rem;
 }
 
-.Projects_container{
-    display: flex;
-    flex-direction: row;
-    padding: 0 6.25rem 1rem 6.25rem;
+.digital-art {
+  height: 30rem;
+  object-fit: contain;
+}
+
+.Projects_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 6.25rem 1rem 6.25rem;
 }
 .column {
-    width: 100%;
-    /*border: 1px solid red;*/
+  width: 100%;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.columnLeft {
+  border-right: 2px solid var(--coffee);
+}
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Project img {
+  width: 100%;
+  border-radius: 0.6rem;
+  width: 20rem;
+}
+
+.carousel {
+  width: 10rem;
+}
+.carouselItem {
+  /* Hier de padding / margin toevoegen.*/
+}
+.Project h2 {
+  padding-bottom: 0.5rem;
+}
+.devider_projects {
+  height: 0.05rem;
+  background-color: var(--coffee);
+  width: 86%;
+  margin: auto;
+}
+
+.container {
+  padding-bottom: 1.5rem;
+}
+.Project iframe {
+  height: 25rem;
+}
+
+.Projects_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 6.25rem 1rem 6.25rem;
+}
+.column {
+  width: 100%;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Project h2 {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .navigate-back img {
+    height: 3.2rem;
+    width: 3.2rem;
+    position: absolute;
+    left: 3rem;
+    padding-top: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  nav {
+    height: 3.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0.25rem 0;
+  }
+  .Next p {
+    padding: 0.5rem 4rem 2rem 4rem;
+  }
+
+  .Maintitle {
+    font-size: 1.75rem;
+    padding-top: 0.94rem;
+  }
+
+  .SubTitle {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .SubTitle_2 {
+    padding: 0.5rem 3rem 0.2rem 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+  }
+  .Projects_container {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
-    
-}
-.columnLeft{
-    border-right: 2px solid var(--coffee);
-}
-.Project{
+    padding: 0.5rem 2rem 1rem 2rem;
+  }
+  .columnLeft {
+    border-right: 0;
+  }
+  .Projects_container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.Project img{
-    width: 100%;
+    flex-direction: row;
+  }
+  .Project img {
+    width: 18rem;
     border-radius: 0.6rem;
-    width: 20rem;
-    
+  }
 }
-
-.CarouselIMG{
-    width: 10rem;
-}
-
-.Project h2{
-    padding-bottom: 0.5rem;
-}
-.devider_projects{
-    height: 0.05rem;
-    background-color: var(--coffee);
-    width: 86%;
-    margin: auto;
-}
-
-
-.container{
-    padding-bottom: 1.5rem;
-}
-.Project iframe{
-    height: 25rem;
-}
-
-.Projects_container{
-    display: flex;
-    flex-direction: row;
-    padding: 0.5rem 6.25rem 1rem 6.25rem;
-}
-.column {
-    width: 100%;
-    /*border: 1px solid red;*/
+@media screen and (max-width: 600px) {
+  .Projects_container {
     display: flex;
     flex-direction: column;
-}
+    padding: 0.5rem 1rem 1rem 3rem;
+  }
+  .header {
+    padding: 2rem 3rem 1rem 3rem;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: normal;
+    padding: 0 0 0.3rem 0;
+  }
 
-.Project{
+  .Maintitle {
+    font-size: 1.75rem;
+    padding-top: 0.94rem;
+  }
+
+  .SubTitle {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .SubTitle_2 {
+    padding: 0.5rem 3rem 0.2rem 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-top: 0.5rem;
+  }
+
+  .header {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .header-tekst img {
+    height: 10rem;
+    padding-top: 1rem;
+  }
+
+  .devider_projects {
+    display: none;
+  }
+
+  .Project img {
+    width: 13.5rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+  }
 }
-
-.Project h2{
-    padding-bottom: 0.5rem;
-}
-
-@media screen and (max-width: 1030px){
-    .navigate-back img {
-        height: 3.2rem;
-        width: 3.2rem;
-        position: absolute;
-        left: 3rem;
-        padding-top: 0.25rem;
-        padding-right: 0.25rem;
-    }
-    nav {
-        height: 3.5rem;
-
-    }
-    p{
-        font-size: 0.9rem;
-        padding: 0.5rem 0 0.25rem 0;
-    }
-    .Next p{
-        padding: 0.5rem 4rem 2rem 4rem;
-    }
-
-    .Maintitle{
-        font-size: 1.75rem;
-        padding-top: 0.94rem;
-    }
-
-    .SubTitle{
-        font-weight: bold;
-        font-size: 1.15rem;
-    }
-    .SubTitle_2{
-        padding: 0.5rem 3rem 0.2rem 3rem;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    h3{
-        font-size: 1.25rem;
-        font-weight: normal;
-        padding-top: 0.5rem;
-    }
-    .Projects_container{
-        display: flex;
-        flex-direction: column;
-        padding: 0.5rem 2rem 1rem 2rem;
-    }
-    .columnLeft{
-        border-right: 0;
-    }
-    .Projects_container{
-        display: flex;
-        flex-direction: row;
-    }
-    .Project img{
-        width: 18rem;
-        border-radius: 0.6rem;
-    }
-
-}
-@media screen and (max-width: 600px){
-    .Projects_container{
-        display: flex;
-        flex-direction: column;
-        padding: 0.5rem 1rem 1rem 3rem;
-    }
-    .header{
-        padding: 2rem 3rem 1rem 3rem;
-    }
-    p{
-        font-size: 0.9rem;
-        font-weight: normal;
-        padding: 0 0 0.3rem 0;
-    }
-
-    .Maintitle{
-        font-size: 1.75rem;
-        padding-top: 0.94rem;
-    }
-
-    .SubTitle{
-        font-weight: bold;
-        font-size: 1.15rem;
-    }
-    .SubTitle_2{
-        padding: 0.5rem 3rem 0.2rem 3rem;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    h3{
-        font-size: 1.25rem;
-        font-weight: normal;
-        padding-top: 0.5rem;
-    }
-
-    .header{
-        padding: 1rem 3rem 1rem 3rem;
-
-    }
-    .header-tekst img{
-        height: 10rem;
-        padding-top: 1rem;
-    }
-
-    .devider_projects{
-        display: none;
-    }
-
-    .Project img{
-        width: 13.5rem;
-        display: flex;
-        justify-content: center;
-        border-radius: 0.6rem;
-    }
-    
-}
-
