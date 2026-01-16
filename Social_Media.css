@@ -9,6 +9,7 @@ p {
   font-size: 1.25rem;
   font-weight: normal;
   padding-bottom: 2rem;
+  padding-right: 0.5rem;
 }
 
 .Maintitle {
@@ -68,9 +69,7 @@ nav {
   margin: auto;
   width: 90%;
 }
-body {
-  padding-bottom: 4rem;
-}
+
 
 .digital-art {
   height: 30rem;
@@ -90,7 +89,8 @@ body {
   padding-left: 1rem;
 }
 .columnLeft {
-  border-right: 2px solid var(--coffee);
+  border-right: 1.5px solid var(--coffee);
+  
 }
 .Project {
   display: flex;
@@ -106,11 +106,10 @@ body {
 .carousel {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem; /* verander dit naar hoe veel space ge wilt */
 }
-.carouselItem {
-  /* styling van de images zelf */
-}
+
 .Project h2 {
   padding-bottom: 0.5rem;
 }
@@ -146,8 +145,26 @@ body {
   align-items: center;
 }
 
-.Project h2 {
-  padding-bottom: 0.5rem;
+.socials{
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+
+}
+.socials img{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0.2rem;
+    
+}
+.Footer{
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    padding: 1rem 6.25rem 1rem 6rem;
+
 }
 
 @media screen and (max-width: 1030px) {
@@ -208,12 +225,22 @@ body {
     width: 18rem;
     border-radius: 0.6rem;
   }
+
+  .Footer{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+   .socials img{
+        height: 2.3rem;
+        width: 2.3rem;
+        
+        padding-bottom: 0.5rem;
+    }
 }
 @media screen and (max-width: 600px) {
   .Projects_container {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 1rem 1rem 3rem;
+    padding: 0 1.75rem 1rem 1.75rem;
   }
   .header {
     padding: 2rem 3rem 1rem 3rem;
@@ -234,12 +261,13 @@ body {
     font-size: 1.15rem;
   }
   .SubTitle_2 {
-    padding: 0.5rem 3rem 0.2rem 3rem;
+    padding: 0.05rem 3rem 0 2.5rem;
     font-weight: bold;
     font-size: 1.5rem;
   }
   h2 {
     font-size: 1.2rem;
+    padding-top: 0.75rem;
   }
   h3 {
     font-size: 1.25rem;
@@ -260,9 +288,22 @@ body {
   }
 
   .Project img {
-    width: 13.5rem;
+    width: 14.5rem;
     display: flex;
     justify-content: center;
     border-radius: 0.6rem;
   }
+  .carousel{
+    gap: 1rem;
+    
+  }
+   .Footer{
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+   .socials img{
+        height: 2rem;
+        width: 2rem;
+        
+        padding-bottom: 0.5rem;
+    }
 }

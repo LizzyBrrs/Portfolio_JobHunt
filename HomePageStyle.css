@@ -63,6 +63,8 @@ h3{
 .socials{
     display: flex;
     justify-items: flex-start;
+    width: 5rem;
+    justify-content: space-between;
 }
 .socials img{
     height: 2.5rem;
@@ -72,11 +74,7 @@ h3{
     padding-left: 0.5rem;
 }
 
-.socials{
-    width: 5rem;
-    display: flex;
-    justify-content: space-between;
-}
+
 .devider{
     height: 0.1rem;
     background-color: var(--coffee);
@@ -268,5 +266,8 @@ h3{
     .Project img{
         width: 18rem;
         border-radius: 0.6rem;
+    }
+    .Footer{
+        padding: 1rem 3rem 1rem 3rem;
     }
 }
