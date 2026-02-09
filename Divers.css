@@ -67,9 +67,6 @@ nav {
     width: 90%;
 
 }
-body{
-    padding-bottom: 4rem;
-}
 
 .digital-art{
     height: 30rem;
@@ -145,6 +142,28 @@ body{
     padding-bottom: 0.5rem;
 }
 
+.socials{
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+
+}
+.socials img{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0.2rem;
+    
+}
+.Footer{
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    padding: 1rem 6.25rem 1rem 6rem;
+
+}
+
 @media screen and (max-width: 1030px){
     .navigate-back img {
         height: 3.2rem;
@@ -205,7 +224,17 @@ body{
         border-radius: 0.6rem;
     }
 
+    .Footer{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+   .socials img{
+        height: 2.3rem;
+        width: 2.3rem;
+        
+        padding-bottom: 0.5rem;
+    }
 }
+
 @media screen and (max-width: 600px){
     .Projects_container{
         display: flex;
@@ -259,6 +288,16 @@ body{
     .Project img{
         width: 18rem;
         border-radius: 0.6rem;
+    }
+
+    .Footer{
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+   .socials img{
+        height: 2rem;
+        width: 2rem;
+        
+        padding-bottom: 0.5rem;
     }
 }
 
