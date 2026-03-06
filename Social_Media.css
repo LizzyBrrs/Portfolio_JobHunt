@@ -164,6 +164,8 @@ nav {
     padding-left: 0.2rem;
     
 }
+
+
 .Footer{
     background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("Assets/design-space-stained-paper-textured-background.jpg");
     background-size: 100%;
@@ -327,8 +329,9 @@ nav {
         padding: 1rem 2.5rem 1rem 2.5rem;
     }
    .socials img{
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        padding-bottom: 0;
         
         
     }
